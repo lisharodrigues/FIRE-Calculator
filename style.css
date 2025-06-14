@@ -1,0 +1,95 @@
+/* Reset + base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f8ff; /* soft blue background */
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container styling */
+.container {
+  max-width: 720px;
+  margin: 3rem auto;
+  background: #ffffff;
+  padding: 2rem 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 12px 32px rgba(0, 123, 255, 0.1);
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #0066cc;
+}
+
+/* Form layout */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Label and input styling */
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  display: block;
+  color: #004080;
+}
+
+input {
+  padding: 0.8rem;
+  border: 1px solid #cce0ff;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border 0.3s ease-in-out;
+}
+
+input:focus {
+  outline: none;
+  border-color: #3399ff;
+  box-shadow: 0 0 6px rgba(51, 153, 255, 0.3);
+}
+
+/* Button styling */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.9rem;
+  font-size: 1.05rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #005ecb;
+}
+
+/* Summary section */
+#summary {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #003366;
+  text-align: center;
+}
+
+/* Chart styling */
+canvas {
+  margin-top: 2rem;
+  width: 100% !important;
+  height: auto !important;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 123, 255, 0.08);
+}

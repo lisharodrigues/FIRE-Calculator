@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FIRE Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>FIRE Calculator</h1>
+      <p style="text-align:center; color:#666; margin-top:0.5rem;">
+        Visualize your financial independence journey
+      </p>
+    </header>
+
+    <section>
+      <form id="fireForm">
+        <div class="form-group">
+          <label for="salary">Monthly Salary (₹)</label>
+          <input type="number" id="salary" placeholder="e.g. 50000" required />
+        </div>
+
+        <div class="form-group">
+          <label for="bonus">Yearly Bonus (₹)</label>
+          <input type="number" id="bonus" placeholder="e.g. 100000" required />
+        </div>
+
+        <div class="form-group">
+          <label for="expenses">Monthly Expenses (₹)</label>
+          <input type="number" id="expenses" placeholder="e.g. 30000" required />
+        </div>
+
+        <div class="form-group">
+          <label for="monthlySavings">Monthly Savings (₹)</label>
+          <input type="number" id="monthlySavings" placeholder="e.g. 15000" required />
+        </div>
+
+        <div class="form-group">
+          <label for="returnRate">Annual Return Rate (%)</label>
+          <input type="number" id="returnRate" placeholder="e.g. 7" required />
+        </div>
+
+        <button type="submit">Generate Chart</button>
+      </form>
+    </section>
+
+    <section id="summary"></section>
+
+    <section>
+      <canvas id="fireChart"></canvas>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
