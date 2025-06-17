@@ -10,15 +10,10 @@ A simple, responsive web app to help you calculate your Financial Independence a
 
 -  Calculates FIRE goal based on expenses and withdrawal rate
 -  Mobile-friendly responsive layout
--  Pure HTML, CSS, and JavaScript (no frameworks)
+-  Pure HTML, CSS, and JavaScript
 
 ---
 
-## Demo Preview
-
-![screenshot](https://via.placeholder.com/800x400?text=Insert+Screenshot+Here)
-
----
 
 ## Getting Started
 
